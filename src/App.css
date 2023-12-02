@@ -117,3 +117,9 @@ body{
   color: #1605ad;
   cursor: pointer;
 }
+
+.movieCardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+}
