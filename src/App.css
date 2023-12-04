@@ -80,9 +80,15 @@ body{
   padding:5px 10px;
   display:flex;
   flex-direction: column;
-  justify-content: start;
   min-height:150px;
   height: fit-content;
+}
+
+.movieCard__body__releaseDate{
+  display: flex;
+  justify-content: space-evenly;
+  white-space: nowrap;
+
 }
 
 .container__list{
@@ -122,4 +128,19 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr;
  
+}
+
+.search{
+  display:flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #242424;
+
+}
+.search input{
+  width: 70%;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 5px;
 }

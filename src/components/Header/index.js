@@ -1,18 +1,17 @@
 import logo from '../../assets/fancode-fc.png';
 import Button from '../button';
-function Header()
+import useFetchGenre from "../../hooks/useFetchGenre";
+import Search from '../Search/Search';
+function Header(props)
 {
-    let genres = ["All","Action","Comedy","Horror","Drama","Sci-Fi"]
+    const  genres  = useFetchGenre();
     return <div className="header">
         <div className="header__logo">
-            <img src={logo} alt='logo'/>
+            <img src={logo} alt='logo' width="168" height="36"/>
         </div>
         <div className="header__tabs">
             {
-                genres.map((item)=>{
-                    return <Button>{item}</Button>
-
-                })
+                props.render(genres)
             }
         </div>
     </div>
