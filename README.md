@@ -10,37 +10,37 @@ this project is made as part of take home assignment for Fancode FE hiring chall
 ## Requirements Covered
 
 ## Layout And UI
-○ Created custom UI components for the app, using React
-○ Displayed a list of movies sorted in descending order of popularity.
-○ Show the movie title, image, genre, cast, director, and a short description related
-to the movie in each information card.
-○ have added an additional feature for displaying a readmore button if a user wants to read full description
+# Created custom UI components for the app, using React
+# Displayed a list of movies sorted in descending order of popularity.
+# Show the movie title, image, genre, cast, director, and a short description related to the movie in each information card.
 
-● Default page load state
-○ Loaded a total of only 20 movies for each year 
-○ By default, when a user lands on the page, display a list of movies of the year
-2012
-○ Implemented smooth scrolling behavior to load more movies as the user scrolls in
-any direction i.e load movies of previous year when user scrolls up and load
-movies of next year when user scrolls down until the current year.
-○ As and when the user scrolls and movies are added to the list, make sure that
-this interaction is smooth and doesn’t cause any jitters.
+# have added an additional feature for displaying a readmore button if a user wants to read full description
+
+## Default page load state
+# Loaded a total of only 20 movies for each year 
+# By default, when a user lands on the page, display a list of movies of the year 2012
+
+# Implemented smooth scrolling behavior to load more movies as the user scrolls in any direction i.e load movies of previous year when user scrolls up and load movies of next year when user scrolls down until the current year.
+
+
+# As and when the user scrolls and movies are added to the list, make sure that this interaction is smooth and doesn’t cause any jitters.
+
 
 ## genre Filter
-○ Provided a filter UI that allows users to filter movies by genre.
-○ Fetched genres from API and show genres as filters
-○ When a user selects one or more genres, the list  only displays movies of
-the selected genres.
+# Provided a filter UI that allows users to filter movies by genre.
+# Fetched genres from API and show genres as filters
+# When a user selects one or more genres, the list  only displays movies of the selected genres.
+
 
 ## Bonus(Optional) Covered
-○ Ensured smooth scrolling even when more and more movies are loaded in the
-DOM.
-○ Implemented a search bar which searches for the movie based on the search string
-and displays an infinite loading list of movies which matches the search.
+# Ensured smooth scrolling even when more and more movies are loaded in the DOM.
+
+# Implemented a search bar which searches for the movie based on the search string and displays an infinite loading list of movies which matches the search.
+
 
 ## Bonus(Optional) Not Covered
-○ Implement this project in React Native instead of a web app 
-○ Use TypeScript for enhanced type safety and code quality.
+# Implement this project in React Native instead of a web app 
+# Use TypeScript for enhanced type safety and code quality.
 
 
 
