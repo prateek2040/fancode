@@ -7,7 +7,7 @@ function useFetchGenre()
 {
    const [genres, setGenres] = useState([])
    useEffect(()=>{
-    axios.get(`${BASE_URL}/3/genre/movie/list?language=en&api_key=2dca580c2a14b55200e784d157207b4d`).then((res)=>{
+    axios.get(`${BASE_URL}/3/genre/movie/list?language=en&api_key=${API_KEY}`).then((res)=>{
         setGenres(res.data.genres)
     }).catch((err)=>{
         console.log(err)

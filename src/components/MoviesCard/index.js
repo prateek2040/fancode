@@ -11,7 +11,9 @@ const MovieCard = forwardRef(function (props,ref)
             </div>
             <div className="movieCard__body">
                 <h5><b>{movieDetail.title}</b></h5>
-                <p>{movieDetail.release_date}</p>
+                <p style={{
+                    color:"gray"
+                }}>{movieDetail.release_date}</p>
                 {
                     show ? <p><i>{movieDetail.overview}</i></p> 
                     :  <p><i>{`${movieDetail.overview.split('').slice(0,30).join('')}...`}</i></p>
