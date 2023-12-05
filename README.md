@@ -9,7 +9,7 @@ access this site on : https://movieflixfancode.netlify.app/
 this project is made as part of take home assignment for Fancode FE hiring challenge
 ## Requirements Covered
 
-● Layout and UI
+## Layout And UI
 ○ Created custom UI components for the app, using React
 ○ Displayed a list of movies sorted in descending order of popularity.
 ○ Show the movie title, image, genre, cast, director, and a short description related
@@ -26,19 +26,19 @@ movies of next year when user scrolls down until the current year.
 ○ As and when the user scrolls and movies are added to the list, make sure that
 this interaction is smooth and doesn’t cause any jitters.
 
-● Genre Filter
+## genre Filter
 ○ Provided a filter UI that allows users to filter movies by genre.
 ○ Fetched genres from API and show genres as filters
 ○ When a user selects one or more genres, the list  only displays movies of
 the selected genres.
 
-● Bonus (Optional) (Covered)
+## Bonus(Optional) Covered
 ○ Ensured smooth scrolling even when more and more movies are loaded in the
 DOM.
 ○ Implemented a search bar which searches for the movie based on the search string
 and displays an infinite loading list of movies which matches the search.
 
-● Bonus (Optional) (Not Covered)
+## Bonus(Optional) Not Covered
 ○ Implement this project in React Native instead of a web app 
 ○ Use TypeScript for enhanced type safety and code quality.
 
